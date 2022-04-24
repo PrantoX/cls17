@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.header-section {
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 11px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.header .header-left {
+    width: 31.3%;
+    float: left;
+}
+.header .header-icon {
+}
+.header .header-icon a {
+    float: left;
+    font-size: 60px;
+    padding-top: 2px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 35px;
+    background-color: #fe6c00;
+    border-radius: 10px;
+}
+.header .header-icon a i {
+    padding: 10px;
+}
+.header .header-icon h1 {
+    line-height: 100px;
+    font-size: 35px;
+}
+
+.header .header-menu {
+    width: 50.3%;
+    float: left;
+    text-align: center;
+}
+.header .header-menu ul {
+    line-height: 100px;
+}
+.header .header-menu ul li {
+    display: inline-block;
+}
+.header .header-menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 20px;
+    padding: 0 10px;
+    color: black;
+    transition: 0.5s;
+}
+.header .header-menu ul li a:hover {
+    color: #fe6c00;
+}
+
+.header .header-right {
+    width: 15.3%;
+    float: left;
+    text-align: right;
+    line-height: 100px;
+}
+.header .header-right a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid #fe6c00;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #fe6c00;
+    transition: 0.5s;
+}
+.header .header-right a:hover {
+    background-color: #fe6c00;
+    color: white;
+}
+
+.banner {
+    background-image: url(https://i.postimg.cc/fTnqPZLB/wepik-2022324-63420.jpg);
+    /* margin-top: 15px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+
+}
+    
+.banner .banner-details {
+}
+.banner .banner-details h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.banner .banner-details h1 {
+    font-size: 65px;
+    padding-bottom: 65px;
+}
+
+.banner .banner-icon {
+}
+
+.banner .banner-icon .button-2 a {
+    color: #ff6b01;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 0 10px;
+    border: 3px solid #ff6b01;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner .banner-icon .button-1 a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 0 10px;
+    background-color: #000000;
+    border: 4px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.banner .banner-icon .button-2 a:hover {
+    background-color: #ff6b01;
+    color: white;
+}
+.banner .banner-icon .button-1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.banner .banner-icon a i {
+    padding-right: 10px;
+}
+
+.service {
+    padding: 50px 0;
+}
+.service .service-left {
+    float: left; /* padding-right: 25px; */
+    margin-right: 85px;
+}
+.service .service-left img {
+    width: 500px;
+}
+.service .service-right {
+}
+.service .service-right h1 {
+    font-size: 56px;
+    padding-bottom: 20px;
+}
+.service .service-right p {
+    font-size: 23px;
+}
+
+.service-details {
+}
+.service-details .service-heading {
+    text-align: center;
+}
+.service-details .service-heading h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.service-details .service-heading p {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.service-item {
+   
+}
+
+
+.service-details .service-item {
+   
+}
+.service-details .service-item .item-1 {
+   
+    width: 30%;
+    height: 235px;
+    margin: 15px 15px;
+    box-shadow: 0px 0px 20px 1px;
+    border-radius: 10px;
+    padding-right: 13px;
+    transition: .5s;
+}
+.service-details .service-item .item-1 .icon {
+    float: left;
+    height: 190px;
+    font-size: 50px;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 25px;
+    color: #fd7000;
+}
+.service-details .service-item .item-1 h1 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 33px;
+}
+.service-details .service-item .item-1 p {
+    font-size: 23px;
+}
+.left {
+    float: left;
+    padding: 0;
+}
+
+.service-details .service-item .item-1:hover{
+    background-color: #c9c9c9;
+
+}
